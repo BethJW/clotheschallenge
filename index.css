@@ -1,20 +1,48 @@
 .container {
-  background-color: rgb(43, 41, 40);
+  max-width: 1400px;
+  margin: 20px auto;
+  background-color: black;
 }
-.carousel .carousel-inner {
-  height: 500px;
+.master {
+  background-image: linear-gradient(
+      rgba(133, 129, 128, 0.274),
+      rgba(4, 4, 4, 0.37)
+    ),
+    url("https://scontent-lhr8-1.xx.fbcdn.net/v/t39.30808-6/358712689_685029433668971_2203760882900135221_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=9sI9u1c2tasAX8-jDmm&_nc_ht=scontent-lhr8-1.xx&oh=00_AfBC-GupMssn-CgBqaqkzpDfsNZ-qKqKCJFbhGNSo21U8w&oe=65F3E7F0");
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+  margin: 0px;
+  padding: 200px 0;
 }
-.carousel-inner .carousel-item img {
-  min-height: 300px;
-  object-fit: cover;
+.header {
+  background-color: rgba(0, 0, 0, 0.352);
+
+  border-top: 4px dashed white;
+  border-bottom: 4px dashed white;
+  padding: 40px;
 }
-h1 {
-  color: red;
+.master h1 {
+  font-size: 110px;
+  text-align: center;
+  color: white;
+  margin: 40px auto;
 }
 
-@media (max-width: 768px) {
-  .carousel .carousel-inner {
-    //prevent it from adding a white space between carousel and container elements
-    height: auto;
-  }
+.master p {
+  margin-top: -60px;
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.logos {
+  margin: 0 auto;
+  display: flex;
+}
+.col-4 {
+  justify-content: left;
+  margin: 0;
+  color: white;
+  font-size: 60px;
 }
