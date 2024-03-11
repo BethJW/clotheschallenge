@@ -1,0 +1,20 @@
+.container {
+  background-color: rgb(43, 41, 40);
+}
+.carousel .carousel-inner {
+  height: 500px;
+}
+.carousel-inner .carousel-item img {
+  min-height: 300px;
+  object-fit: cover;
+}
+h1 {
+  color: red;
+}
+
+@media (max-width: 768px) {
+  .carousel .carousel-inner {
+    //prevent it from adding a white space between carousel and container elements
+    height: auto;
+  }
+}
