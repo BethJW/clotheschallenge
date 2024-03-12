@@ -19,7 +19,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="master">
+      <div class="master" id="master">
         <div class="header">
           <h1>C.P. COMPANY</h1>
           <p>Iconic. Versatile. Functional</p>
@@ -151,19 +151,21 @@
           Take a moment to share your ideas on this brand. Do you like the
           brand? If so, what is your favourite piece?
         </p>
-        <form>
+        <form id="form">
           <div>
             <input
               type="text"
               class="input-bar"
               placeholder="Enter your name"
+              id="name-input"
             />
           </div>
           <div>
             <input
               type="text"
-              placeholder="Share your thoughts and opinions here on C.P. Company"
+              placeholder="Share your thoughts and opinions here "
               class="input-box"
+              id="input-box"
             />
           </div>
 
@@ -171,14 +173,22 @@
             type="submit"
             class="submit-btn btn btn-outline-primary"
             value="Submit"
+            id="submit"
           />
         </form>
+        <div class="return">
+          <a href="#master">return to top</a>
+        </div>
       </footer>
       <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"
       ></script>
+      <script src="index.js"></script>
+    </div>
+    <div>
+      <p class="text-center">Coded by Beth Williamson</p>
     </div>
   </body>
 </html>

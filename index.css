@@ -125,3 +125,135 @@ footer p {
   font-size: 22px;
   text-align: center;
 }
+.return {
+  text-align: center;
+}
+.return a {
+  font-size: 20px;
+}
+@media (max-width: 900px) {
+  .container {
+    max-width: fit-content;
+    margin: 0px;
+    padding: 10px;
+  }
+  .master {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .header {
+    background-color: rgba(0, 0, 0, 0.352);
+    border-top: 4px dashed white;
+    border-bottom: 4px dashed white;
+    padding-bottom: 80px;
+  }
+  .master h1 {
+    font-size: 70px;
+    text-align: center;
+    margin: 40px auto;
+  }
+  .master p {
+    margin-top: -25px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .logos {
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    justify-content: center;
+    align-items: center;
+  }
+  .logos a {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  main {
+    border: 3px dashed black;
+    margin-top: 10px;
+    background-color: rgba(214, 220, 220, 0.531);
+  }
+  main img {
+    width: 600px;
+  }
+  .yellow-coat {
+    padding: 0;
+    width: 100%;
+  }
+  h3 {
+    font-size: 40px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    margin-top: 20px;
+    text-align: center;
+  }
+  main p {
+    margin: 30px;
+    font-size: 25px;
+    text-align: right;
+  }
+
+  section h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+  }
+  .featured .card {
+    margin: 10px auto;
+  }
+  footer {
+    border: 3px dashed black;
+    margin-top: 10px;
+    background-color: rgba(214, 220, 220, 0.531);
+  }
+  footer h4 {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 30px;
+  }
+  footer p {
+    font-size: 16px;
+    padding: 10px;
+  }
+  form {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+  }
+  form .input-bar {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    text-align: left;
+    padding-left: 10px;
+  }
+  form .submit-btn {
+    width: 200px;
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  form .input-box {
+    width: 300px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-bottom: 200px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  .return {
+    margin-top: 0px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .return a {
+    font-size: 16px;
+  }
+}
