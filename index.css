@@ -2,6 +2,7 @@
   max-width: 1400px;
   margin: 20px auto;
   background-color: rgb(255, 255, 255);
+  padding: 20px;
 }
 .master {
   background-image: linear-gradient(
@@ -60,9 +61,11 @@ main img {
 .yellow-coat {
   padding: 0;
   width: 100%;
+  height: 900px;
+  align-items: right;
 }
 h3 {
-  font-size: 80px;
+  font-size: 60px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin-top: 160px;
   text-align: right;
@@ -127,6 +130,7 @@ footer p {
 }
 .return {
   text-align: center;
+  padding-bottom: 20px;
 }
 .return a {
   font-size: 20px;
@@ -181,8 +185,7 @@ footer p {
     width: 600px;
   }
   .yellow-coat {
-    padding: 0;
-    width: 100%;
+    display: none;
   }
   h3 {
     font-size: 40px;
